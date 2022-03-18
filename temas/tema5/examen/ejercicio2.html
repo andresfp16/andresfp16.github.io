@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lenguaje de marcas</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-areas: 
+            "header header aside"
+            "nav article article"
+            "nav footer footer";
+            grid-template-rows: 50px 1fr 50px;
+            grid-template-columns: 20% 1fr 15%;
+            height: 100vh;
+            margin: 0;
+        }
+        header, div{
+            padding: 15px;
+            background: grey;
+        }
+        footer, article, nav{
+            padding: 15px;
+            background: white;
+        }
+        #header{
+            grid-area: header;
+        }
+        #footer{
+            grid-area: footer;
+        }
+        #nav{
+            grid-area: nav;
+        }
+        #article{
+            grid-area: article;
+        }
+        #aside{
+            grid-area: aside;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">Logo Inicio Productos Servicios</header>
+    <article id="article"></article>
+    <nav id="nav"></nav>
+    <div id="aside">box4</div>
+    <footer id="footer"></footer>
+
+</body>
+</html>

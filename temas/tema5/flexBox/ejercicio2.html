@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguaje de Marcas</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container > div{
+            font-size: 2vw;
+            padding: .5em;
+            color: white;
+        }
+        .red{
+            background-color: red;
+            flex-grow: 1;
+        }
+        .blue{
+            background-color: blue;
+            width: 40vw;
+        }
+        .green{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red">1</div>
+        <div class="blue">2
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eros molestie, consequat neque quis, gravida odio. Fusce condimentum gravida nulla, a hendrerit felis blandit vel. Vestibulum nec libero porttitor, condimentum magna non, aliquam tellus. Integer auctor sodales justo ac scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam porta purus et tempus ullamcorper. Nulla malesuada sollicitudin ex sed feugiat. Nam at orci eget libero commodo sodales. Pellentesque blandit elit bibendum orci commodo, nec auctor ex auctor. Sed varius massa sed nisi aliquam, in varius risus volutpat. Etiam efficitur eget lorem eu porttitor. Nulla interdum felis et purus eleifend fringilla. Sed fermentum, enim eu condimentum commodo, ligula purus varius sem, et placerat velit sapien nec justo. Proin ullamcorper consectetur cursus.
+            </p>
+        </div>
+        <div class="green">3</div>
+    </div>
+</body>
+</html>

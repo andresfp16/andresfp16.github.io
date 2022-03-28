@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version ="2.0">
+    <channel>
+        <title>Portada</title>
+        <link>https://andresfp16.github.io/</link>
+        <description>Pagina web Kique Barbudo</description>
+        <item>
+            <title>Tema 5 </title>
+            <link>https://andresfp16.github.io/temas/tema5/ejercicios/ejercicio1.html</link>
+            <description>Ejercicio de prácticas</description>
+        </item>
+    </channel>
+</rss>

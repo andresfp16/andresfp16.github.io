@@ -3,8 +3,18 @@
   <title>Jobeet</title>
 
   <entry>
-    <title>EJercico1.html</title>
+    <title>ejercicio1.html</title>
     <link href="https://andresfp16.github.io/temas/tema5/cssGrid/ejercicio1.html" />
-    <summary>Cosas</summary>
+    <summary>Prueba</summary>
+  </entry>
+  <entry>
+    <title>SIstemasGestiónEmpresarial.html</title>
+    <link href="https://andresfp16.github.io/temas/tema11/ejercicios/ejercicio1/index.html" />
+    <summary>Sistemas gestión empresarial</summary>
+  </entry>
+  <entry>
+    <title>Instalaciónyconfiguracióndeodoo.html</title>
+    <link href="https://andresfp16.github.io/temas/tema11/ejercicios/ejercicio2/index.html" />
+    <summary>Instalación y configuración de odoo</summary>
   </entry>
 </feed>

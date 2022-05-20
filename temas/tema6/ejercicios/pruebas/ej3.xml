@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paises xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej3.xsd">
+    <pais>
+        <nombre>Argentina</nombre>
+        <fecha-de-nacimiento>1996-12-18</fecha-de-nacimiento>
+        <hora>18:29:45</hora>
+        <nota>7.5</nota>
+        <apto>true</apto>
+    </pais>
+</paises>

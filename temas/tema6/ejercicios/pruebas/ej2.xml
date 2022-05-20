@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE carta [
+    <!ELEMENT carta (producto*)>
+    <!ELEMENT producto (nombre, precio, descripcion, calorias)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT calorias (#PCDATA)>
+]>
+
+<carta>
+    <producto>
+        <nombre>Gofres Belgas</nombre>
+        <precio>5.95</precio>
+        <descripcion>Gofres</descripcion>
+        <calorias>650</calorias>
+    </producto>
+    <producto>
+        <nombre>Gofres belgas con fresas</nombre>
+        <precio>7.95</precio>
+        <descripcion>gofres con fresas</descripcion>
+        <calorias>900</calorias>
+    </producto>
+</carta>
